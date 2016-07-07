@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "block_ip": {
+      "command": "/opt/sensu/embedded/bin/check-process.rb -p block_ip",
+      "subscribers": [
+        "atom"
+      ],
+      "interval": 60
+    }
+  }
+}
