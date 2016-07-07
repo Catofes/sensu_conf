@@ -1,7 +1,7 @@
 {
   "checks": {
     "block_ip": {
-      "command": "/opt/sensu/embedded/bin/check-process.rb -p block_ip",
+      "command": "/opt/sensu/embedded/bin/check-process.rb -p blockIP",
       "subscribers": [
         "atom"
       ],
